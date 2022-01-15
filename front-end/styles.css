@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+body{
+    background-color:  #a3d9f0;
+}
+header{
+    background-image: url('https://media.istockphoto.com/vectors/space-background-wide-realistic-cosmos-with-shining-stars-long-banner-vector-id1283095709?k=20&m=1283095709&s=170667a&w=0&h=FBCrFEbfgaK-G44Sxpr6NiOu3kJHhrt2F6TmKrc4keM=');
+    background-size: 100%;
+}
+footer{
+    background-color:#a255da;
+}
+.picOfDay, .mars{
+    text-align: center;
+    color:#532a70;
+    background-color: rgb(229, 200, 244);
+}
+li a{
+    text-decoration: none;
+    color: rgb(243, 239, 245);
+    font-size: 3.5vh;
+    margin-left: .3vh;
+    text-align: center;
+}
+.header{
+    display:flex;
+}
+.nav{
+    margin: 20px;
+}
+main{
+    margin: auto;
+    width: 90%;
+}
+p{
+    font-size: 12px;
+}
+h3{
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+}
+footer p, header p, footer h3, footer{
+    text-align: center;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#navbar ul{
+    display: flex;
+}
+li{
+    margin: 0 30px;
+}
+.logoimg{
+    border-radius: 20px;
+    margin: 20px;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+#description{
+    text-align: justify;
+    margin: 10px;
+    padding: 40px;
+}
+#date{
+    text-align: right;
+    margin: 10px;
+}
+#title{
+    text-align: center;
+}
+#footer{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+main p{
+    font-size: 20px;
+}
+.fas{
+    color:rgb(243, 239, 245);
+    font-size: 30px;
+}
+.container1{
+    display:flex;
+    justify-content: space-around;
+}
+.index1{
+    margin: auto;
+}
+.input{
+    font-size: 20px;
+    margin: 20px 0px 20px 50px;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.blogPost{
+    color: blue;
+    margin: 20px;
+    background-color: white;
+}
+.login, .submit{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(233, 204, 248);
+    color: purple;
+    border-radius: 10px;
+    border: 3px purple solid;
+    margin-left: 50px;
+    margin-top: 15px;
+    width:90%;
+}
+input{
+    font-size: 20px;
+    margin: 5px 0px 5px 50px;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    font-size: 30px;
+    padding: 3px;
+    background-color: rgb(233, 204, 248);
+    color: purple;
+    border-radius: 10px;
+    border: 3px purple solid;
+    margin: 5px 0px 5px 70px;
+    width:40%;
+}
+.password{
+    width: 40%;
+    margin: 5px 0px 5px 70px;
+}
+label{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.birthday{
+    width: 20%;
+}
+.copy{
+    font-size: 3vh;
+}
+table,
+th,
+td {
+    height: 110px;
+    width: 400px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(250, 222, 250);
+}
+td:nth-child(1),
+td:nth-child(2) {
+    border-right: 2px solid purple;
+}
+.col:nth-child(1),
+.col:nth-child(2),
+.col:nth-child(3) {
+    border-bottom: 2px solid purple;
+}
